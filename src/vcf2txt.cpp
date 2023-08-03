@@ -62,8 +62,8 @@ int main(int argc, char* argv[])
 
 
 
-    char* vcard_text = new char[8 * 1024];
-    memset(vcard_text, 0, 8 * 1024);
+    char* vcard_text = new char[256 * 1024];
+    memset(vcard_text, 0, 256 * 1024);
     size_t offset = 0;
 
     const char* vps = inbuf;
